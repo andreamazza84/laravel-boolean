@@ -13,11 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Con controller//
+//->HOME
 Route::get('/', 'BlogController@index')->name('home');
 
+//->BLOG
 Route::get('/blog', 'BlogController@blog')->name('blog');
 
+//->CONTATTI
 Route::get('/contacts', 'BlogController@contatti')->name('contatti');
 
+//->POST
 
 
