@@ -14,5 +14,9 @@
 // Se tutto é impostato correttamente potete usate il metodo all() di eloquent nel controller per passare i posts alla view blog (slide 109). -->
 @extends('layout')
 
+@section('content')
+    <h1>Home</h1>
+@endsection
+
 
 
