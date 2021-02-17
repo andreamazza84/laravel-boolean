@@ -23,6 +23,5 @@ Route::get('/blog', 'BlogController@blog')->name('blog');
 //->CONTATTI
 Route::get('/contacts', 'BlogController@contatti')->name('contatti');
 
-//->POST
 
 
