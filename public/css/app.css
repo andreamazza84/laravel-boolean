@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: red;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 80%;
+  margin: auto;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+#header {
+  height: 80px;
+  background-color: #113355;
+  color: #aaa;
+}
+
+#main {
+  height: calc(100vh - 80px);
+  background-color: #f7f7f7;
+  color: #113355;
+}
+
+#footer {
+  height: 400px;
+  background-color: #aaa;
+  color: #113355;
+}
+
+#header {
+  display: flex;
+}
+#header .menu {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+#header .menu-left {
+  justify-content: start;
+  padding-left: 30px;
+}
+#header .menu-right {
+  justify-content: end;
+}
+#header .menu-right li {
+  list-style: none;
+  margin-right: 30px;
+}
+#header .menu-right li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}

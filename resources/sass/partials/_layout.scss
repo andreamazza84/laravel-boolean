@@ -1,0 +1,44 @@
+//Struttura
+#header{
+    height: 80px;
+    background-color: $bg-three;
+    color: $color-two;
+}
+#main{
+    height: calc(100vh - 80px); 
+    background-color: $bg-one;
+    color: $color-one;
+}
+#footer{
+    height: 400px;
+    background-color: $bg-two;
+    color: $color-one;    
+}
+
+//#Header
+#header{
+    display: flex;
+    .menu{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        align-items: center;
+    }
+    .menu-left{
+        justify-content: start;
+        padding-left: 30px;
+    }
+    .menu-right{
+        justify-content: end;
+        li{
+            list-style: none;
+            margin-right: 30px;
+            a{
+                color: $color-two;
+                text-decoration: none;
+                font-size: $menu;
+                font-weight: 600;
+            }
+        }
+    }
+}
