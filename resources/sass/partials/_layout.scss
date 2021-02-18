@@ -34,17 +34,19 @@
             list-style: none;
             margin-right: 30px;
             a{
+                display: block;
                 color: $color-two;
                 text-decoration: none;
                 font-size: $menu;
                 font-weight: 600;
                 font-family: 'Nunito', sans-serif;
+                border-bottom: 2px solid transparent;
                 &:hover{
-                    border-bottom: 1px solid $color-two;
-                }
-                .active{
                     border-bottom: 2px solid $color-two;
                 }
+                // .active{
+                //     border-bottom: 2px solid $color-two;
+                // }
             }
         }
     }

@@ -24,7 +24,7 @@ class BlogController extends Controller
      */
     public function blog(Post $post)
     {   
-        $posts = $post->all();
+        $posts = Post::all();
         //dd($posts);
         return view('blog', compact('posts'));
     }

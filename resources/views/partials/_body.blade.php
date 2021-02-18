@@ -3,9 +3,9 @@
                 MyBlogLogo
             </div>
             <ul class="menu menu-right">
-                <li><a href="{{ route('home') }}" class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}">Home</a></li>
-                <li><a href="{{ route('blog') }}" class="{{Route::currentRouteName() === 'blog' ? 'active' : ''}}">Blog</a></li>
-                <li><a href="{{ route('contatti') }}" class="{{Route::currentRouteName() === 'contatti' ? 'active' : ''}}">Contatti</a></li>
+                <li><a href="{{ route('home') }}" class="{{ Route::currentRouteName() === 'home' ? 'active' : '' }}">Home</a></li>
+                <li><a href="{{ route('blog') }}" class="{{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blog</a></li>
+                <li><a href="{{ route('contatti') }}" class="{{ Route::currentRouteName() === 'contatti' ? 'active' : '' }}">Contatti</a></li>
             </ul>
         </header>   
         <main id="main">
@@ -16,6 +16,6 @@
         <footer id="footer">
 
         </footer>
-        <?php //var_dump(Route::currentRouteName()) ?>
     </body>
 </html>
+
